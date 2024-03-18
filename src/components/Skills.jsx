@@ -5,9 +5,9 @@ import { FaFileArrowDown } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
 import { GiSpiderWeb } from "react-icons/gi";
 
-const Hero = () => {
+const Skills = () => {
   return (
-    <div className="h-screen w-full bg-gradient-to-b from-[#4d194d] to-[#3e1f47]">
+    <div className="h-screen w-full bg-gradient-to-b from-[#312244] to-[#272640]">
       <div className="h-full w-full flex flex-col justify-center items-center">
         <div className="flex flex-row items-center text-6xl sm:text-6xl md:text-8xl lg:text-9xl font-Fascinate text-secondary">
           <span className="">HIMANSHU</span>
@@ -23,21 +23,15 @@ const Hero = () => {
             </span>
           </div>
         </div>
-
-        <p className="my-8 max-w-2xl text-center text-secondary font-Oxygen">
-          I'm thrilled to have you here. This space is a testament to my journey
-          as a passionate and dedicated web developer and designer.{" "}
-        </p>
-
-        <div className="flex flex-row justify-center items-center mt-6 border border-tertiary text-white">
-          <FaLinkedinIn className="border border-tertiary hover:bg-tertiary hover:shadow-md hover:scale-110 cursor-pointer text-7xl px-6 py-6 duration-300" />
-          <FaGithubAlt className="border border-tertiary hover:bg-tertiary hover:shadow-md hover:scale-110 cursor-pointer text-7xl px-6 py-6 duration-300" />
-          <AiFillInstagram className="border border-tertiary hover:bg-tertiary hover:shadow-md hover:scale-110 cursor-pointer text-7xl px-6 py-6 duration-300" />
-          <FaFileArrowDown className="border border-tertiary hover:bg-tertiary hover:shadow-md hover:scale-110 cursor-pointer text-7xl px-6 py-6 duration-300" />
+        <div className="flex flex-row justify-center items-center mt-14 border border-tertiary text-white">
+          <FaLinkedinIn className="border border-tertiary hover:bg-tertiary cursor-pointer text-7xl px-6 py-6 duration-200" />
+          <FaGithubAlt className="border border-tertiary hover:bg-tertiary cursor-pointer text-7xl px-6 py-6 duration-200" />
+          <AiFillInstagram className="border border-tertiary hover:bg-tertiary cursor-pointer text-7xl px-6 py-6 duration-200" />
+          <FaFileArrowDown className="border border-tertiary hover:bg-tertiary cursor-pointer text-7xl px-6 py-6 duration-200" />
         </div>
       </div>
     </div>
   );
 };
 
-export default Hero;
+export default Skills;

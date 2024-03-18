@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         Fascinate: ["'Fascinate', 'system-ui'"],
+        Oxygen: ["Oxygen Mono", "monospace"],
       },
       colors: {
         primary: "#2c3439",
